@@ -1,0 +1,40 @@
+{
+  "geode": "v5.11.2",
+  "gd": {
+    "win": "2.2081",
+    "android": "2.2081"
+  },
+  "id": "aetha.core",
+  "name": "AETHA",
+  "version": "v0.1.0",
+  "developer": "AETHA Team",
+  "description": "A modular Geometry Dash utility suite with a customizable interface and frame telemetry.",
+  "settings": {
+    "counter-enabled": {
+      "type": "bool",
+      "name": "Enable AETHA Counter",
+      "description": "Show the AETHA telemetry overlay during gameplay.",
+      "default": true
+    },
+    "counter-show-ticks": {
+      "type": "bool",
+      "name": "Show Update Tick Count",
+      "description": "Show the number of PlayLayer update calls since the level started.",
+      "default": true
+    },
+    "counter-refresh-ms": {
+      "type": "int",
+      "name": "Counter Refresh Interval",
+      "description": "How often the displayed telemetry is refreshed.",
+      "default": 500,
+      "min": 100,
+      "max": 2000
+    },
+    "theme-accent": {
+      "type": "color",
+      "name": "Interface Accent",
+      "description": "Accent color reserved for the upcoming customizable AETHA interface.",
+      "default": "#A78BFA"
+    }
+  }
+}
